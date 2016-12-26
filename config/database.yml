@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: heroku-sample_production
-  username: heroku-sample
-  password: <%= ENV['HEROKU-SAMPLE_DATABASE_PASSWORD'] %>
+  #database: heroku-sample_production
+  #username: heroku-sample
+  #password: <%= ENV['HEROKU-SAMPLE_DATABASE_PASSWORD'] %>
